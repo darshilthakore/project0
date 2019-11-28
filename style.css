@@ -1,0 +1,109 @@
+header {
+	background-color: blue;
+	font-size: 50px;
+	color: white;
+	size: 60px;
+
+}
+
+nav a:hover{
+	background-color: white;
+	color: blue;
+	-ms-transform: scale(1.1); /* IE 9 */
+	-webkit-transform: scale(1.1); /* Safari 3-8 */
+	transform: scale(1.1);
+}
+
+@media (max-width:500px){
+	.logo{
+		display: none;
+	}
+}
+nav{
+	text-decoration: none;
+	
+}
+header > img{
+	size: 100px;
+	padding: 5px;
+}
+#hey{
+	color: blue;
+}
+.grid {
+	background-color: white;
+	color: blue;
+	display: grid;
+	padding: 20px
+	grid-column-gap: 10px;
+	grid-template-columns: auto auto auto auto;
+}
+
+.grid-item {
+	background-color: blue;
+	color: white;
+	border-color: white;
+	transition: transform .2s;
+
+}
+
+table {
+	border: 1px solid black;
+	border-collapse:  collapse;
+	width: 50%;
+}
+th,td {
+	border: 1px solid black;
+	border-collapse:  collapse;
+	width: 50%;
+}
+
+nav {
+	border: 1px solid blue;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+a{
+	border: 1px solid blue;
+}
+
+.acc {
+	font-weight: bold;
+}
+
+
+iframe{
+	width: 100%;
+	min-height: 1000px;
+	border: 1px solid black;
+}
+
+footer > a{
+	align-items: right;
+	
+
+}
+
+table {
+  align: center; }
+  table tr {
+    color: green; }
+    table tr th {
+      background-color: grey; }
+    table tr td {
+      background-color: yellow; }
+
+.players {
+  background-color: cyan; }
+
+.stadium, .manager {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold; }
+
+.stadium {
+  background-color: teal; }
+
+.manager {
+  background-color: cyan; }

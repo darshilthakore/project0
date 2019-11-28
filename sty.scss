@@ -1,0 +1,39 @@
+$color: cyan;
+
+
+table{
+	align: center;
+	tr{
+	color: green;
+		th{
+		background-color:grey;
+		}
+		td{
+		background-color:yellow;
+		}
+	}
+}
+
+
+.players {
+	background-color: $color
+}
+
+
+%useme{
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+
+}
+
+.stadium{
+	@extend %useme;
+	background-color : teal;
+}
+
+.manager{
+	@extend %useme;
+	background-color: $color;
+}
+

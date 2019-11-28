@@ -1,0 +1,24 @@
+table {
+  align: center; }
+  table tr {
+    color: green; }
+    table tr th {
+      background-color: grey; }
+    table tr td {
+      background-color: yellow; }
+
+.players {
+  background-color: cyan; }
+
+.stadium, .manager {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold; }
+
+.stadium {
+  background-color: teal; }
+
+.manager {
+  background-color: cyan; }
+
+/*# sourceMappingURL=sty.css.map */
